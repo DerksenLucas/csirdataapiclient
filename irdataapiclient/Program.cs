@@ -21,6 +21,11 @@ public class IrDataClient
     private string username;
     private string encodedPassword;
 
+    public static void Main(String[]Args)
+    {
+        Console.WriteLine("Hello World");
+    }
+
     public IrDataClient(string username, string password)
     {
         authenticated = false;
